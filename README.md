@@ -1,12 +1,49 @@
-<<<<<<< HEAD
-# React + Vite
+# Lorem-Catsum
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and fast web application built with Vite that displays cat facts. You can specify the number of cat facts you wish to see.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# lorem-catsum
->>>>>>> a59ed8abe96986a453a5c6331bb15e8866b4b848
+- Fetch and display random cat facts.
+- Specify the number of cat facts to display.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You need to have the following software installed on your computer:
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository**:
+
+    ```sh
+    git clone https://github.com/Centinoughty/lorem-catsum.git
+    cd lorem-catsum
+    ```
+
+2. **Install dependencies**:
+
+    ```sh
+    npm install
+    ```
+
+3. **Run the development server**:
+
+    ```sh
+    npm run dev
+    ```
+
+    This will start the Vite development server. Open your browser and navigate to `http://localhost:5173` to see the app in action.
+
+### Building for Production
+
+To build the app for production, run:
+
+```sh
+npm run build
